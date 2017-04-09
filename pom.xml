@@ -34,6 +34,7 @@
 	  <configuration>
 	  <suiteXmlFiles>
 	  <suiteXmlFile>smoke.xml</suiteXmlFile>
+	  <suiteXmlFile>regression.xml</suiteXmlFile>
 	  </suiteXmlFiles>
 	  </configuration>
 	  </plugin>
