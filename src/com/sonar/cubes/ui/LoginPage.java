@@ -32,7 +32,11 @@ public class LoginPage {
 	public WebElement getLoginbutton()
 	{
 		return driver.findElement(By.id("loginButton"));
-	}
 		
+	}
+	public WebElement getLoginErrorMessage()
+	{
+		return driver.findElement(By.xpath("(//span[@class='errormsg'])[1]"));
+	}		
 
 }
